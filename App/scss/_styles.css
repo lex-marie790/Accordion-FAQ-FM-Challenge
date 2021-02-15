@@ -15,6 +15,17 @@ body {
   font-size: 12px;
 }
 
+.image {
+  background-image: url("../images/illustration-woman-online-desktop.svg"), url("../images/bg-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 10vh left -10vh, bottom -15vh right 15vh;
+  background-size: 88%, 110vh;
+}
+
+h1 {
+  font-weight: bold;
+}
+
 .card {
   display: flex;
   width: 62rem;
@@ -30,11 +41,27 @@ body {
   display: flex;
   flex-direction: column;
   text-align: left;
+  justify-content: center;
+  margin-left: 4%;
+  margin-right: auto;
 }
 
 .questionIcon {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.question {
+  font-weight: normal;
+}
+
+.arrow {
+  padding-left: 8px;
+}
+
+.answer {
+  display: none;
 }
 
 /*# sourceMappingURL=_styles.css.map */
